@@ -17,8 +17,3 @@ function toPassword(e) {
   e.value="";
   e.type = "password";
 }
-
-function setFields() {
-  document.getElementsById('username').value = "Richard";
-  document.getElementsById('password').value = "123Rich123";
-}
