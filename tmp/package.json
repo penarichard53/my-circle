@@ -1,0 +1,6 @@
+{
+  "name": "my-circle-chat",
+  "version": "0.0.1",
+  "decription": "first attempt at socket chat",
+  "dependencies": {}
+}

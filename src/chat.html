@@ -1,0 +1,31 @@
+<!-- chat room page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../css/global.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/functions.js"></script>
+  <title>My Circle</title>
+</head>
+
+<body>
+<!-- Navigation -->
+<div id="navbar-placeholder"></div>
+<script>
+  $(function(){
+    $("#navbar-placeholder").load("navbar.html");
+  });
+</script>
+<!-- End of Navigation -->
+
+<div class="below-nav">   <!-- must place body in here -->
+  <ul id="messages"></ul>
+  <form action="">
+    <input id="m" autocomplete="off" /><button>Send</button>
+  </form>
+</div>
+
+</body>
+
+</html>
