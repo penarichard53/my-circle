@@ -2,5 +2,8 @@
   "name": "my-circle-chat",
   "version": "0.0.1",
   "decription": "first attempt at socket chat",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.2.0"
+  }
 }
