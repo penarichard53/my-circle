@@ -1,0 +1,36 @@
+<!-- login / signup page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../css/global.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/functions.js"></script>
+  <title>My Circle</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <div id="navbar-placeholder"></div>
+  <script>
+    $(function(){
+      $("#navbar-placeholder").load("navbar.html");
+    });
+  </script>
+  <!-- End of Navigation -->
+
+<div class="below-nav">
+  My Circle <br><br>
+  <form action="./success.html"> <!-- add method="post" once real development occurs -->
+    <input id="user" type="text" name="username" value="Enter username" onclick=eraseField(this)><br>
+    <input id="pass" type="text" name="password" value="Enter password" onclick=toPassword(this)><br>
+    <input id="passConfirm" type="text" name="password" value="Retype password" onclick=eraseField(this)><br>
+    <input id="email" type="text" name="password" value="Enter email password" onclick=eraseField(this)><br>
+    <input type="submit" value="Go">
+    <!-- Upon clicking "Go", will get taken to ./index.html?username=&password= -->
+  </form>
+</div>
+</body>
+
+</html>
